@@ -1,6 +1,6 @@
 # ⚡ vite-babel-plugin
 
-A plugin for vite using babela [vite](https://github.com/vitejs/vite) plugin.
+A plugin for [vite](https://github.com/vitejs/vite) using babel.
 
 ## Features
 

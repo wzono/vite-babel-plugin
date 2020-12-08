@@ -8,7 +8,7 @@ interface PluginOptions {
   babel?: TransformOptions
 }
 
-export default function Plugin(options: PluginOptions) {
+export default function Plugin(options?: PluginOptions) {
   const babel = options?.babel ?? {}
   const { plugins, presets, ...babelOptions } = babel;
   const babelPlugins = [...(plugins || [])];

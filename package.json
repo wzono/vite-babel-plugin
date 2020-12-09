@@ -1,6 +1,6 @@
 {
-  "name": "@wingsico/vite-babel-plugin",
-  "version": "0.0.2",
+  "name": "vite-babel-plugin",
+  "version": "0.0.2-alpha",
   "description": "A plugin for vite using babel",
   "main": "lib/index.js",
   "files": [
@@ -30,9 +30,6 @@
   },
   "peerDependencies": {
     "vite": "^1.0.0-rc.9 || ^1.0.0"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/wingsico"
   },
   "repository": {
     "type": "git",
